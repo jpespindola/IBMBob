@@ -1,0 +1,14 @@
+{
+  "name": "appwrite-mcp",
+  "version": "1.0.0",
+  "description": "Servidor MCP para o Appwrite — DDL e DML completos via Model Context Protocol.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-appwrite": "^14.0.0"
+  }
+}
